@@ -1,0 +1,37 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    NOTES.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ssong <marvin@42.fr>                       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/05/27 10:59:03 by ssong             #+#    #+#              #
+#    Updated: 2018/05/27 11:07:56 by ssong            ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+1. What is an attirbute?
+	- An attribute is a propety that further defines a class.
+
+2. What is a method?
+	- A method is a function in your class and has access to all attributes within that class
+
+3. What is a class attribute?
+	- Class attributes are attributes that are shared across all instance
+	- Or by going to the classname.attirbutename and setting it to something else
+	- Editing a class atribute will be shown across all objects
+
+4. What is a instance attribute?
+	- An instance attribute is an attribute that is specific to that one object and not the the class
+
+5. What is a instance method?
+	- Methods athat has the default paramter as the object are instance methods.
+	- They can modify instance attributes of a class
+
+6. What is a static method?
+	- Mehods that do not modify instance attributes of a class. 
+	- They do not call themselves so cannot edit themself only the global
+		variables such as classes.
+
+7. What is a init method?
+	- init is the function that executes during instanciation of a class into an object.
